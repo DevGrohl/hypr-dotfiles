@@ -1,0 +1,31 @@
+import = ["~/.config/alacritty/theme/eldrich.toml"]
+
+[keyboard]
+bindings = [
+  { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" },
+]
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[colors.cursor]
+cursor = "#FFFFFF"
+text = "#000000"
+
+[font]
+size = 12
+
+[font.normal]
+family = "JetBrains Mono Nerd Font"
+style = "Regular"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[terminal.shell]
+program = "/usr/bin/zsh"
+
+[window.dimensions]
+columns = 180
+lines = 50
